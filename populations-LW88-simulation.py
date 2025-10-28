@@ -478,5 +478,5 @@ st.dataframe(param_df)
 ###################################
 ### RATES IMAGE #####
 ###################################
-st.image("fig\\level-rates-diagram-uphill.svg", caption="Rate diagram for the diradical system showing the various rates and timescales involved in the model.")
+st.image("fig/level-rates-diagram-uphill.svg", caption="Rate diagram for the diradical system showing the various rates and timescales involved in the model.")
 
