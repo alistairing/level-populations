@@ -10,6 +10,7 @@ from matplotlib.ticker import ScalarFormatter, LogFormatter, LogFormatterSciNota
 
 colours = {1 : 'navy', 2 : 'royalblue', 3 : 'skyblue', 4 : 'darkorange', 5: 'red', 6: 'darkred', 7: 'darkgreen', 8: 'purple'}
 
+
 ###################################
 #### DEFINE FUNCTIONS #############
 ###################################
@@ -200,7 +201,32 @@ def calculate_contrast(rabi_frequency, laser_power=0.9, spot_diameter=400e-4, wa
 
     return [GSSC, GSTC, GSC, ESSC, ESTC, ESC, GSC/ESC]
 
+def get_float_input(label, default, min_value=None, max_value=None):
+    """
+    A text-based float input for Streamlit that supports scientific notation,
+    and validates against min/max constraints.
+    """
+    # Display input box with default formatted in scientific notation
+    value_str = st.sidebar.text_input(label, value=f"{default:.2e}")
 
+    # Try to parse the float
+    try:
+        value = float(value_str)
+    except ValueError:
+        st.sidebar.warning(f"⚠️ Please enter a valid number for {label}")
+        return default
+
+    # Enforce minimum value
+    if min_value is not None and value < min_value:
+        st.sidebar.warning(f"⚠️ {label} must be ≥ {min_value:.2e}. Using minimum value.")
+        value = min_value
+
+    # Enforce maximum value
+    if max_value is not None and value > max_value:
+        st.sidebar.warning(f"⚠️ {label} must be ≤ {max_value:.2e}. Using maximum value.")
+        value = max_value
+
+    return value
 ###################################
 ### DEFINE TIMESCALES & RATES #####
 ###################################
@@ -247,6 +273,7 @@ P0 = [0.25, 0.25, 0.25, 0.25, 0.00, 0.00, 0.00, 0.00] # S0, Tx, Ty, Tz, S1, T1x,
 n_points = 6000
 t = np.logspace(-10, -2, n_points)
 
+
 ###################################
 ### SET SLIDERS FOR STREAMLIT #####
 ###################################
@@ -254,21 +281,27 @@ t = np.logspace(-10, -2, n_points)
 st.sidebar.subheader("Adjust parameters to see effect on contrast")
 st.sidebar.markdown("Note: all rates are in s<sup>-1</sup> unless otherwise stated.", unsafe_allow_html=True)
 
-rabi_frequency = st.sidebar.number_input("rabi frequency (kHZ)", min_value=10.0, max_value=1000.0, value=100.0, step=1.0) * 1e3
-k01 = st.sidebar.number_input(r'$k_{01}$ value', value = 40.0*1600, step=1.0, format="%0.2e")
+# rabi_frequency = st.sidebar.number_input("rabi frequency (kHZ)", min_value=10.0, max_value=1000.0, value=100.0, step=1.0) * 1e3
+# k01 = st.sidebar.number_input(r'$k_{01}$ value', value = 40.0*1600, step=1.0, format="%0.2e")
+# P0x = st.sidebar.number_input(r'$P_x$ value', min_value=1e5, max_value=1e8, value=2.17e6, step=10000.0, format="%0.2e")
+# P0z = st.sidebar.number_input(r'$P_z$ value', min_value=1e3, max_value=1e6, value=2.17e4, step=1000.0, format="%0.2e") 
+# Q0x = st.sidebar.number_input(r'$Q_x$ value', min_value=1e2, max_value=1e6, value=1.05e4, step=100.0, format="%0.2e")
+# k10_t = st.sidebar.number_input(r'${k_{10}}^t$ value', min_value=1e7, max_value=1e9, value=1.06e8, step=1000000.0, format="%0.2e")
+# k10_s = st.sidebar.number_input(r'${k_{10}}^s$ value', min_value=1e6, max_value=1e8, value=5.88e6, step=100000.0, format="%0.2e")
+# w = st.sidebar.number_input(r"$w$ value", min_value=1e3, max_value=1e6, value=4.17e4, step=100.0, format="%0.2e")
 
-P0x = st.sidebar.number_input(r'$P_x$ value', min_value=1e5, max_value=1e8, value=2.17e6, step=10000.0, format="%0.2e")
-
-P0z = st.sidebar.number_input(r'$P_z$ value', min_value=1e3, max_value=1e6, value=2.17e4, step=1000.0, format="%0.2e") 
-
-Q0x = st.sidebar.number_input(r'$Q_x$ value', min_value=1e2, max_value=1e6, value=1.05e4, step=100.0, format="%0.2e")
-
-k10_t = st.sidebar.number_input(r'${k_{10}}^t$ value', min_value=1e7, max_value=1e9, value=1.06e8, step=1000000.0, format="%0.2e")
-
-k10_s = st.sidebar.number_input(r'${k_{10}}^s$ value', min_value=1e6, max_value=1e8, value=5.88e6, step=100000.0, format="%0.2e")
-
-w = st.sidebar.number_input(r"$w$ value", min_value=1e3, max_value=1e6, value=4.17e4, step=100.0, format="%0.2e")
-
+rabi_frequency = get_float_input("rabi frequency (kHZ)", 100.0, 10.0, 1000.0) * 1e3
+k01 = get_float_input(r"$k_{01}$ value", 40.0*1600)
+P0x = get_float_input(r"$P_x$ value", 2.17e6, 1e5, 1e8)
+P0z = get_float_input(r"$P_z$ value", 2.17e4, 1e3, 1e6)
+Q0x = get_float_input(r"$Q_x$ value", 1.05e4, 1e2, 1e6)
+k10_t = get_float_input(r"${k_{10}}^t$ value", 1.06e8, 1e7, 1e9)
+k10_s = get_float_input(r"${k_{10}}^s$ value", 5.88e6, 1e6, 1e8)
+w = get_float_input(r"$w$ value", 4.17e4, 1e3, 1e6)
+###################################
+#### SET INFORMATION MESSAGE ######
+###################################
+st.sidebar.info('Click refresh if app crashes', icon="ℹ️")
 
 ### UPDATE PARAMS DICTIONARY WITH SLIDER VALUES ###
 
