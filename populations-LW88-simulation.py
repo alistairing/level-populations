@@ -303,14 +303,14 @@ P = odeint(odes_uphill, P0, t, args=(params,)) # populations(t)
 ##        Plot        ##
 ########################
 fig, ax = plt.subplots(1,1, figsize=(8, 5))
-line1, = ax.plot(t, P[:, 0], label='$S_0$')
-line2, = ax.plot(t, P[:, 1], label='$T0_x$')
-line3, = ax.plot(t, P[:, 2], label='$T0_y$')
-line4, = ax.plot(t, P[:, 3], label='$T0_z$')
-line5, = ax.plot(t, P[:, 4], label='$S_1$')
-line6, = ax.plot(t, P[:, 5], label='$T1_x$')
-line7, = ax.plot(t, P[:, 6], label='$T1_y$')
-line8, = ax.plot(t, P[:, 7], label='$T1_z$')
+line1, = ax.plot(t, P[:, 0], label='$S0$')
+line2, = ax.plot(t, P[:, 1], label='$T0x$')
+line3, = ax.plot(t, P[:, 2], label='$T0y$')
+line4, = ax.plot(t, P[:, 3], label='$T0z$')
+line5, = ax.plot(t, P[:, 4], label='$S1$')
+line6, = ax.plot(t, P[:, 5], label='$T1x$')
+line7, = ax.plot(t, P[:, 6], label='$T1y$')
+line8, = ax.plot(t, P[:, 7], label='$T1z$')
 
 # First legend: populations
 pop_lines = [line1, line2, line3, line4, line5, line6, line7, line8]
@@ -380,14 +380,14 @@ P_off = odeint(odes_uphill, P[-1], t, args=(laser_off_params,)) # populations(t)
 ##        Plot        ##
 ########################
 fig, ax = plt.subplots(1,1, figsize=(8, 5))
-line1, = ax.plot(t, P_off[:, 0], label='$S_0$')
-line2, = ax.plot(t, P_off[:, 1], label='$T0_x$')
-line3, = ax.plot(t, P_off[:, 2], label='$T0_y$')
-line4, = ax.plot(t, P_off[:, 3], label='$T0_z$')
-line5, = ax.plot(t, P_off[:, 4], label='$S_1$')
-line6, = ax.plot(t, P_off[:, 5], label='$T1_x$')
-line7, = ax.plot(t, P_off[:, 6], label='$T1_y$')
-line8, = ax.plot(t, P_off[:, 7], label='$T1_z$')
+line1, = ax.plot(t, P_off[:, 0], label='$S0$')
+line2, = ax.plot(t, P_off[:, 1], label='$T0x$')
+line3, = ax.plot(t, P_off[:, 2], label='$T0y$')
+line4, = ax.plot(t, P_off[:, 3], label='$T0z$')
+line5, = ax.plot(t, P_off[:, 4], label='$S1$')
+line6, = ax.plot(t, P_off[:, 5], label='$T1x$')
+line7, = ax.plot(t, P_off[:, 6], label='$T1y$')
+line8, = ax.plot(t, P_off[:, 7], label='$T1z$')
 
 pop_lines = [line1, line2, line3, line4, line5, line6, line7, line8]
 pop_labels = [r'$S_0$', r'$T_{0,x}$', r'$T_{0,y}$', r'$T_{0,z}$', r'$S_1$', r'$T_{1,x}$', r'$T_{1,y}$', r'$T_{1,z}$']
