@@ -5,12 +5,8 @@ import streamlit as st
 import pandas as pd
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
-from matplotlib.ticker import MaxNLocator
-import matplotlib.ticker as mticker
 from matplotlib.ticker import ScalarFormatter, LogFormatter, LogFormatterSciNotation
-from IPython.display import Image
-from matplotlib import cm
-from matplotlib.ticker import LinearLocator
+
 
 colours = {1 : 'navy', 2 : 'royalblue', 3 : 'skyblue', 4 : 'darkorange', 5: 'red', 6: 'darkred', 7: 'darkgreen', 8: 'purple'}
 
