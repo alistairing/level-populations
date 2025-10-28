@@ -255,19 +255,19 @@ st.sidebar.subheader("Adjust parameters to see effect on contrast")
 st.sidebar.markdown("Note: all rates are in s<sup>-1</sup> unless otherwise stated.", unsafe_allow_html=True)
 
 rabi_frequency = st.sidebar.number_input("rabi frequency (kHZ)", min_value=10.0, max_value=1000.0, value=100.0, step=1.0) * 1e3
-k01 = st.sidebar.number_input("k01 value", value = 40.0*1600, step=1.0, format="%0.2e")
+k01 = st.sidebar.number_input(r'$k_{01}$ value', value = 40.0*1600, step=1.0, format="%0.2e")
 
-P0x = st.sidebar.number_input("P0x value", min_value=1e5, max_value=1e8, value=2.17e6, step=10000.0, format="%0.2e")
+P0x = st.sidebar.number_input(r'$P_x$ value', min_value=1e5, max_value=1e8, value=2.17e6, step=10000.0, format="%0.2e")
 
-P0z = st.sidebar.number_input("P0z value", min_value=1e3, max_value=1e6, value=2.17e4, step=1000.0, format="%0.2e") 
+P0z = st.sidebar.number_input(r'$P_z$ value', min_value=1e3, max_value=1e6, value=2.17e4, step=1000.0, format="%0.2e") 
 
-Q0x = st.sidebar.number_input("Q0x value", min_value=1e2, max_value=1e6, value=1.05e4, step=100.0, format="%0.2e")
+Q0x = st.sidebar.number_input(r'$Q_x$ value', min_value=1e2, max_value=1e6, value=1.05e4, step=100.0, format="%0.2e")
 
-k10_t = st.sidebar.number_input("k10_t value", min_value=1e7, max_value=1e9, value=1.06e8, step=1000000.0, format="%0.2e")
+k10_t = st.sidebar.number_input(r'${k_{10}}^t$ value', min_value=1e7, max_value=1e9, value=1.06e8, step=1000000.0, format="%0.2e")
 
-k10_s = st.sidebar.number_input("k10_s value", min_value=1e6, max_value=1e8, value=5.88e6, step=100000.0, format="%0.2e")
+k10_s = st.sidebar.number_input(r'${k_{10}}^s$ value', min_value=1e6, max_value=1e8, value=5.88e6, step=100000.0, format="%0.2e")
 
-w = st.sidebar.number_input("w value", min_value=1e3, max_value=1e6, value=4.17e4, step=100.0, format="%0.2e")
+w = st.sidebar.number_input(r"$w$ value", min_value=1e3, max_value=1e6, value=4.17e4, step=100.0, format="%0.2e")
 
 
 ### UPDATE PARAMS DICTIONARY WITH SLIDER VALUES ###
@@ -314,7 +314,7 @@ line8, = ax.plot(t, P[:, 7], label='$T1_z$')
 
 # First legend: populations
 pop_lines = [line1, line2, line3, line4, line5, line6, line7, line8]
-pop_labels = ['$S_0$', '$T0_x$', '$T0_y$', '$T0_z$', '$S_1$', '$T1_x$', '$T1_y$', '$T1_z$']
+pop_labels = [r'$S_0$', r'$T_{0,x}$', r'$T_{0,y}$', r'$T_{0,z}$', r'$S_1$', r'$T_{1,x}$', r'$T_{1,y}$', r'$T_{1,z}$']
 legend1 = ax.legend(pop_lines, pop_labels, frameon=False, loc='center right', title='Populations')
 
 # Add the first legend manually to the axes
@@ -322,15 +322,15 @@ ax.add_artist(legend1)
 
 # Second legend: vertical lines (timescales)
 vlines = [
-    ax.axvline(x=1/k01, color='orange', linestyle='--', label='k01', alpha=0.3),
-    ax.axvline(x=1/P0x, color='b', linestyle='--', label='P0x', alpha=0.3),
-    ax.axvline(x=1/P0z, color='c', linestyle='--', label='P0z', alpha=0.3),
-    ax.axvline(x=1/Q0x, color='g', linestyle='--', label='Q0x', alpha=0.3),
+    ax.axvline(x=1/k01, color='orange', linestyle='--', label=r'$k_{01}$', alpha=0.3),
+    ax.axvline(x=1/P0x, color='b', linestyle='--', label='Px', alpha=0.3),
+    ax.axvline(x=1/P0z, color='c', linestyle='--', label='Pz', alpha=0.3),
+    ax.axvline(x=1/Q0x, color='g', linestyle='--', label='Qx', alpha=0.3),
     ax.axvline(x=1/k10_t, color='m', linestyle='--', label=r'k10_t', alpha=0.3),
     ax.axvline(x=1/k10_s, color='y', linestyle='--', label=r'k10_s', alpha=0.3),
     ax.axvline(x=1/w, color='k', linestyle='--', label='w', alpha=0.3),
 ]
-vline_labels = ['k01', 'P0x', 'P0z', 'Q0x', r'k10_t', r'k10_s', 'w']
+vline_labels = [r'$k_{01}$', r'$P_x$', r'$P_z$', r'$Q_x$', r'${k_{10}}^t$', r'${k_{10}}^s$', 'w']
 legend2 = ax.legend(vlines, vline_labels, frameon=False, loc='center left', title='Timescales')
 
 plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
@@ -390,15 +390,16 @@ line7, = ax.plot(t, P_off[:, 6], label='$T1_y$')
 line8, = ax.plot(t, P_off[:, 7], label='$T1_z$')
 
 pop_lines = [line1, line2, line3, line4, line5, line6, line7, line8]
-pop_labels = ['$S_0$', '$T0_x$', '$T0_y$', '$T0_z$', '$S_1$', '$T1_x$', '$T1_y$', '$T1_z$']
+pop_labels = [r'$S_0$', r'$T_{0,x}$', r'$T_{0,y}$', r'$T_{0,z}$', r'$S_1$', r'$T_{1,x}$', r'$T_{1,y}$', r'$T_{1,z}$']
 legend1 = ax.legend(pop_lines, pop_labels, frameon=False, loc='center right', title='Populations')
 
 vlines = [
-    ax.axvline(x=1/Q0x, color='g', linestyle='--', label='Q0x', alpha=0.3),
-    ax.axvline(x=1/k10_s, color='y', linestyle='--', label=r'k10_s', alpha=0.3),
+    ax.axvline(x=1/Q0x, color='g', linestyle='--', label= r'$Q_x$', alpha=0.3),
+    ax.axvline(x=1/k10_s, color='y', linestyle='--', label= r'${k_{10}}^s$', alpha=0.3),
     ax.axvline(x=1/w, color='k', linestyle='--', label='w', alpha=0.3),
 ]
-vline_labels = ['Q0x', r'k10_s', 'w',]
+vline_labels = [ r'$Q_x$', r'${k_{10}}^s$', 'w']
+
 legend2 = ax.legend(vlines, vline_labels, frameon=False, loc='center left', title='Timescales')
 
 plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
@@ -412,61 +413,6 @@ plt.tight_layout()
 fig.suptitle('Population dynamics of LW88 diradical system', fontsize=16)
 fig.subplots_adjust(top=0.88)   
 st.pyplot(fig)
-
-# ###################################
-# ####### CALCULATE CONTRAST ########
-# ###################################
-
-# spot_diameter = 10e-4 # Spot diameter in cm
-# wavelength = 405e-9 # Wavelength in meters
-# power_range = np.logspace(-4, 4, 500) # Laser power range in arbitrary units
-
-# # Initialize an empty array to store contrast values
-# contrast_array = np.empty((0, 9)) # Initialize an empty array to store contrast values
-
-# # loop over laser powers and calculate contrast for each power
-# for p in power_range:
-#     k01 = calculate_excitation_rate(wavelength=wavelength, spot_diameter=spot_diameter, laser_power=p)
-#     temp_array = np.append(np.array(calculate_contrast(laser_power=p, spot_diameter=spot_diameter, rabi_frequency=rabi_frequency, verbose=False)), p)
-#     temp_array = np.append(temp_array, k01)
-#     contrast_array = np.vstack((contrast_array, temp_array))
-
-# df = pd.DataFrame(contrast_array, columns=['GSSC', 'GSTC', 'GSC', 'ESSC', 'ESTC', 'ESC', 'GSC/ESC', 'Laser Power (mW)', 'Excitation Rate (s^-1)']);
-
-# ###################################
-# ############ PLOTTING #############
-# ###################################
-
-# fig, ax = plt.subplots(figsize=(8, 5), nrows=1, ncols=1, sharex=True, sharey=True)
-
-# titles = ['GS Total ',
-#           'ES Total']
-
-# for i, col in enumerate([ 'GSC', 'ESC']):
-# #for i, col in enumerate([ 'GSC/ESC']):    
-#     ax.plot(df['Excitation Rate (s^-1)'], df[col].abs(), label=titles[i])
-#     ax.set_xlabel('Excitation Rate ')
-#     ax.set_xscale('log')
-#     ax.set_yscale('log')
-#     ax.set_ylabel('contrast')
-#     ax.xaxis.set_major_formatter(LogFormatterSciNotation())
-#     ax.yaxis.set_major_formatter(LogFormatterSciNotation())
-# #ax.axvline(x=39.4, color='k', linestyle='--', label='400 um k01', alpha=0.3)
-# #ax.axvline(x=39.4*1600, color='r', linestyle='--', label='10 um k01', alpha=0.3)
-# ax.axvline(x=P0x, color='b', linestyle='--', label='P0x', alpha=0.3)
-# ax.axvline(x=P0z, color='g', linestyle='--', label='P0z', alpha=0.3)
-# ax.axvline(x=Q0x, color='c', linestyle='--', label='Q0x', alpha=0.3)
-# ax.axvline(x=k10_t, color='m', linestyle='--', label=r'k10_t', alpha=0.3)
-# ax.axvline(x=k10_s, color='y', linestyle='--', label=r'k10_s', alpha=0.3)
-# ax.axvline(x=w, color='orange', linestyle='--', label='w', alpha=0.3)
-# ax.axvline(x=w+rabi_frequency, color='purple', linestyle='--', label='rabi', alpha=0.3)
-# ax.legend(frameon=False)
-# plt.tight_layout()
-# fig.suptitle('Contrast vs Excitation Rate for Ground and Excited State ODMR', fontsize=16)
-# fig.subplots_adjust(top=0.88)
-# plt.figtext(0, 0 , f'rabi freq : {int(rabi_frequency*1e-3)} kHz, wavelength : {int(wavelength*1e9)} nm', fontsize='x-small')
-
-# st.pyplot(fig)
 
 ###################################
 ### PREPARE DATAFRAME  ############
