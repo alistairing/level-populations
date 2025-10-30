@@ -290,7 +290,7 @@ st.sidebar.markdown("Note: all rates are in s<sup>-1</sup> unless otherwise stat
 # k10_s = st.sidebar.number_input(r'${k_{10}}^s$ value', min_value=1e6, max_value=1e8, value=5.88e6, step=100000.0, format="%0.2e")
 # w = st.sidebar.number_input(r"$w$ value", min_value=1e3, max_value=1e6, value=4.17e4, step=100.0, format="%0.2e")
 
-rabi_frequency = get_float_input("rabi frequency (kHZ)", 100.0, 10.0, 1000.0) * 1e3
+#rabi_frequency = get_float_input("rabi frequency (kHZ)", 100.0, 10.0, 1000.0) * 1e3
 k01 = get_float_input(r"$k_{01}$ value", 40.0*1600)
 P0x = get_float_input(r"$P_x$ value", 2.17e6, 1e5, 1e8)
 P0z = get_float_input(r"$P_z$ value", 2.17e4, 1e3, 1e6)
