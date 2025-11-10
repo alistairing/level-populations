@@ -231,16 +231,16 @@ def get_float_input(label, default, min_value=None, max_value=None):
 ### DEFINE TIMESCALES & RATES #####
 ###################################
 
-T_1 = 24e-6 # Room Temp, Naitik EPR data
-#T_1 = 301e-6 # 100K, Wasielewski paper 
-tau_f_triplet = 9.4e-9 # from paper SI
+#T_1 = 24e-6 # Room Temp, Naitik EPR data
+T_1 = 200e-6 # 85K, Wasielewski paper 
+tau_f_triplet = 9.5e-9 # from paper SI, LW88 S.VII.5
 k10_t = (1/tau_f_triplet)
 tau_f_singlet = 170e-9 # from paper SI0
 k10_s = (1/tau_f_singlet)
 tau_S0_T0 = 95e-6 #Wasielewski paper - no spin-selectivity between S0 and T0 sublevels
 k01 =  39.4*1600 #photons absorbed per second
 
-triplet_pl_fraction = 0.98 # from SI fig S.VII.3
+triplet_pl_fraction = 0.98 # from SI fig S.VII.3 Version51 
 k_ISC = k10_t*((1/triplet_pl_fraction) - 1)
 ss_factor = 100 #spin selectivity factor
 k_ISC_z = k_ISC/ss_factor
