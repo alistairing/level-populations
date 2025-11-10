@@ -303,7 +303,7 @@ w = get_float_input(r"$w$ value", params['w0xy'], 1e1, 1e6)
 ###################################
 #### SET INFORMATION MESSAGE ######
 ###################################
-st.sidebar.info('Click refresh if app crashes', icon="ℹ️")
+st.sidebar.info('Click refresh if app crashes!', icon="ℹ️")
 
 ### UPDATE PARAMS DICTIONARY WITH SLIDER VALUES ###
 
