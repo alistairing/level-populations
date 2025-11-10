@@ -232,13 +232,15 @@ def get_float_input(label, default, min_value=None, max_value=None):
 ###################################
 
 #T_1 = 24e-6 # Room Temp, Naitik EPR data
-T_1 = 200e-6 # 85K, Wasielewski paper 
+#T_1 = 300e-6 # 85K, Wasielewski, coherent control paper
+T_1 = 500e-6 # 77K, Wasielewski, Optically Addressable Molecular Qubits paper 
 tau_f_triplet = 9.5e-9 # from paper SI, LW88 S.VII.5
 k10_t = (1/tau_f_triplet)
 tau_f_singlet = 170e-9 # from paper SI0
 k10_s = (1/tau_f_singlet)
-tau_S0_T0 = 95e-6 #Wasielewski paper - no spin-selectivity between S0 and T0 sublevels
-k01 =  39.4*1600 #photons absorbed per second
+#tau_S0_T0 = 95e-6 #85K, Wasielewski, coherent control paper - no spin-selectivity between S0 and T0 sublevels
+tau_S0_T0 = 45e-6 #85K, Wasielewski, Optically Addressable Molecular Qubits paper - no spin-selectivity between S0 and T0 sublevels
+k01 =  39.4 #photons absorbed per second
 
 triplet_pl_fraction = 0.98 # from SI fig S.VII.3 Version51 
 k_ISC = k10_t*((1/triplet_pl_fraction) - 1)
@@ -291,13 +293,13 @@ st.sidebar.markdown("Note: all rates are in s<sup>-1</sup> unless otherwise stat
 # w = st.sidebar.number_input(r"$w$ value", min_value=1e3, max_value=1e6, value=4.17e4, step=100.0, format="%0.2e")
 
 #rabi_frequency = get_float_input("rabi frequency (kHZ)", 100.0, 10.0, 1000.0) * 1e3
-k01 = get_float_input(r"$k_{01}$ value", 40.0*1600)
-P0x = get_float_input(r"$P_x$ value", 2.17e6, 1e5, 1e8)
-P0z = get_float_input(r"$P_z$ value", 2.17e4, 1e3, 1e6)
-Q0x = get_float_input(r"$Q_x$ value", 1.05e4, 1e2, 1e6)
-k10_t = get_float_input(r"${k_{10}}^t$ value", 1.06e8, 1e7, 1e9)
-k10_s = get_float_input(r"${k_{10}}^s$ value", 5.88e6, 1e6, 1e8)
-w = get_float_input(r"$w$ value", 4.17e4, 1e3, 1e6)
+k01 = get_float_input(r"$k_{01}$ value", params['k01'], 1e1, 1e6)
+P0x = get_float_input(r"$P_x$ value", params['P0x'], 1e3, 1e9)
+P0z = get_float_input(r"$P_z$ value", params['P0z'], 1e3, 1e8)
+Q0x = get_float_input(r"$Q_x$ value", params['Q0x'], 1e1, 1e6)
+k10_t = get_float_input(r"${k_{10}}^t$ value", params['k10_t'], 1e7, 1e9)
+k10_s = get_float_input(r"${k_{10}}^s$ value", params['k10_s'], 1e6, 1e8)
+w = get_float_input(r"$w$ value", params['w0xy'], 1e1, 1e6)
 ###################################
 #### SET INFORMATION MESSAGE ######
 ###################################
