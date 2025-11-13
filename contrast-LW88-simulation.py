@@ -220,8 +220,8 @@ k01 =  39.4 #photons absorbed per second
 
 triplet_pl_fraction = 0.98 # from SI fig S.VII.3
 k_ISC = k10_t*((1/triplet_pl_fraction) - 1)
-ss_factor = 100 #spin selectivity factor
-k_ISC_z = k_ISC/ss_factor
+ss = 0.8 #spin selectivity, normally given in percentage. I have converted to factor (0-1).
+k_ISC_z = k_ISC*(1-ss)/(1+ss)
 
 P0x, P0y, P0z = k_ISC, k_ISC, k_ISC_z
 Q0x = Q0y = Q0z = 1/tau_S0_T0
@@ -258,7 +258,7 @@ t = np.logspace(-10, -2, n_points)
 st.sidebar.subheader("Adjust parameters to see effect on contrast")
 st.sidebar.markdown("Note: all rates are in s<sup>-1</sup> unless otherwise stated.", unsafe_allow_html=True)
 
-rabi_frequency = st.sidebar.number_input("rabi frequency (kHZ)", min_value=10.0, max_value=1000.0, value=100.0, step=1.0) * 1e3
+rabi_frequency = st.sidebar.number_input("rabi frequency (kHZ)", min_value=10.0, max_value=10000.0, value=100.0, step=1.0) * 1e3
 
 P0x = st.sidebar.number_input("P0x value", min_value=1e5, max_value=1e8, value=2.17e6, step=10000.0, format="%0.2e")
 
