@@ -209,16 +209,23 @@ def calculate_contrast(rabi_frequency, laser_power=0.9, spot_diameter=400e-4, wa
 ### DEFINE TIMESCALES & RATES #####
 ###################################
 
-T_1 = 24e-6 # Room Temp, Naitik EPR data
-#T_1 = 301e-6 # 100K, Wasielewski paper 
-tau_f_triplet = 9.4e-9 # from paper SI
+###################################
+### DEFINE TIMESCALES & RATES #####
+###################################
+
+#T_1 = 24e-6 # Room Temp, Naitik EPR data
+#T_1 = 300e-6 # 85K, Wasielewski, coherent control paper
+#T_1 = 500e-6 # 77K, Wasielewski, Optically Addressable Molecular Qubits paper 
+T_1 = 200e-6 # 77K, Sabine Richert ,Exploring Photogenerated Molecular Quartet States as Spin Qubits
+tau_f_triplet = 9.5e-9 # from paper SI, LW88 S.VII.5
 k10_t = (1/tau_f_triplet)
 tau_f_singlet = 170e-9 # from paper SI0
 k10_s = (1/tau_f_singlet)
-tau_S0_T0 = 95e-6 #Wasielewski paper - no spin-selectivity between S0 and T0 sublevels
+#tau_S0_T0 = 95e-6 #85K, Wasielewski, coherent control paper - no spin-selectivity between S0 and T0 sublevels
+tau_S0_T0 = 45e-6 #85K, Wasielewski, Optically Addressable Molecular Qubits paper - no spin-selectivity between S0 and T0 sublevels
 k01 =  39.4 #photons absorbed per second
 
-triplet_pl_fraction = 0.98 # from SI fig S.VII.3
+triplet_pl_fraction = 0.98 # from SI fig S.VII.3 Version51 
 k_ISC = k10_t*((1/triplet_pl_fraction) - 1)
 ss = 0.8 #spin selectivity, normally given in percentage. I have converted to factor (0-1).
 k_ISC_z = k_ISC*(1-ss)/(1+ss)
@@ -268,7 +275,7 @@ Q0x = st.sidebar.number_input("Q0x value", min_value=1e2, max_value=1e6, value=1
 
 k10_t = st.sidebar.number_input("k10_t value", min_value=1e7, max_value=1e9, value=1.06e8, step=1000000.0, format="%0.2e")
 
-k10_s = st.sidebar.number_input("k10_s value", min_value=1e6, max_value=1e8, value=5.88e6, step=100000.0, format="%0.2e")
+k10_s = st.sidebar.number_input("k10_s value", min_value=1e4, max_value=1e9, value=5.88e6, step=100000.0, format="%0.2e")
 
 w = st.sidebar.number_input("w value", min_value=1e3, max_value=1e6, value=4.17e4, step=100.0, format="%0.2e")
 
