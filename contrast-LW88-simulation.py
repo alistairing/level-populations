@@ -143,7 +143,7 @@ def odes_uphill(P, t, params):
     return [dS0dt, dT0xdt, dT0ydt, dT0zdt, dS1dt, dT1xdt, dT1ydt, dT1zdt]
 
 # Function to calculate contrast based on laser intensity and Rabi frequency
-def calculate_contrast(rabi_frequency, laser_power=0.9, spot_diameter=400e-4, wavelength=405e-9, verbose=False, ):
+def calculate_contrast(rabi_frequency, laser_power=0.9, spot_diameter=400e-4, wavelength=405e-9, verbose=False):
     """
     Calculate the contrast based on laser intensity and Rabi frequency.
     
@@ -166,7 +166,7 @@ def calculate_contrast(rabi_frequency, laser_power=0.9, spot_diameter=400e-4, wa
     params.update({'k01' : k01})
     P = odeint(odes_uphill, P0, t, args=(params,)) # populations(t)
 
-    params_mw = {'w0xz' : rabi_frequency + w, 'w1xz' : w}
+    params_mw = {'w0xz' : rabi_frequency + w, 'w0yz' : rabi_frequency + w, 'w1xz' : w, 'w1yz' : w}
     params.update(params_mw)
     P_mw = odeint(odes_uphill, P[-1], t, args=(params,)) # populations(t)
     
@@ -178,7 +178,7 @@ def calculate_contrast(rabi_frequency, laser_power=0.9, spot_diameter=400e-4, wa
     contrast = GSC = (S1_MW - S1_cntrl + T1_MW - T1_cntrl)/(S1_cntrl+T1_cntrl)
 
     ## excited state ODMR contrast cal. ##
-    params_mw = {'w1xz' : rabi_frequency + w, 'w0xz' : w}
+    params_mw = {'w0xz' : w, 'w0yz' : w, 'w1xz' : w + rabi_frequency, 'w1yz' : w + rabi_frequency}
     params.update(params_mw)
     P_mw = odeint(odes_uphill, P[-1], t, args=(params,)) # populations(t)
 
@@ -187,7 +187,6 @@ def calculate_contrast(rabi_frequency, laser_power=0.9, spot_diameter=400e-4, wa
     contrast_singlet = ESSC = (S1_MW - S1_cntrl)/S1_cntrl
     contrast_triplet = ESTC = (T1_MW - T1_cntrl)/T1_cntrl
     contrast = ESC = (S1_MW - S1_cntrl + T1_MW - T1_cntrl)/(S1_cntrl+T1_cntrl)
-
     if verbose:
         print(f"\n### Ground state ODMR contrast ###\n")
         print(f"singlet contrast = {GSSC:.3e}")
@@ -205,9 +204,32 @@ def calculate_contrast(rabi_frequency, laser_power=0.9, spot_diameter=400e-4, wa
     return [GSSC, GSTC, GSC, ESSC, ESTC, ESC, GSC/ESC]
 
 
-###################################
-### DEFINE TIMESCALES & RATES #####
-###################################
+def get_float_input(label, default, min_value=None, max_value=None):
+    """
+    A text-based float input for Streamlit that supports scientific notation,
+    and validates against min/max constraints.
+    """
+    # Display input box with default formatted in scientific notation
+    value_str = st.sidebar.text_input(label, value=f"{default:.2e}")
+
+    # Try to parse the float
+    try:
+        value = float(value_str)
+    except ValueError:
+        st.sidebar.warning(f"⚠️ Please enter a valid number for {label}")
+        return default
+
+    # Enforce minimum value
+    if min_value is not None and value < min_value:
+        st.sidebar.warning(f"⚠️ {label} must be ≥ {min_value:.2e}. Using minimum value.")
+        value = min_value
+
+    # Enforce maximum value
+    if max_value is not None and value > max_value:
+        st.sidebar.warning(f"⚠️ {label} must be ≤ {max_value:.2e}. Using maximum value.")
+        value = max_value
+
+    return value
 
 ###################################
 ### DEFINE TIMESCALES & RATES #####
@@ -227,11 +249,13 @@ k01 =  39.4 #photons absorbed per second
 
 triplet_pl_fraction = 0.98 # from SI fig S.VII.3 Version51 
 k_ISC = k10_t*((1/triplet_pl_fraction) - 1)
-ss = 0.8 #spin selectivity, normally given in percentage. I have converted to factor (0-1).
+ss = 0.95 #spin selectivity, normally given in percentage. I have converted to factor (0-1).
 k_ISC_z = k_ISC*(1-ss)/(1+ss)
 
 P0x, P0y, P0z = k_ISC, k_ISC, k_ISC_z
 Q0x = Q0y = Q0z = 1/tau_S0_T0
+ground_state_risc_factor = 0.81 # difference between ISC rates from S0 to T0 and T0 to S0. 0.81 calculated from boltzmann distribution at 77K 
+R0x = R0y = R0z = Q0x*ground_state_risc_factor
 
 w = 1/T_1
 
@@ -241,9 +265,9 @@ params = {'P0x' : P0x,
           'Q0x' : Q0x, 
           'Q0y' : Q0y, 
           'Q0z' : Q0z,
-          'R0x' : Q0x, 
-          'R0y' : Q0y, 
-          'R0z' : Q0z,  
+          'R0x' : R0x, 
+          'R0y' : R0y, 
+          'R0z' : R0z,  
           'k01' : k01,
           'k10_t' : k10_t,
           'k10_s' : k10_s,
@@ -265,19 +289,23 @@ t = np.logspace(-10, -2, n_points)
 st.sidebar.subheader("Adjust parameters to see effect on contrast")
 st.sidebar.markdown("Note: all rates are in s<sup>-1</sup> unless otherwise stated.", unsafe_allow_html=True)
 
-rabi_frequency = st.sidebar.number_input("rabi frequency (kHZ)", min_value=10.0, max_value=10000.0, value=100.0, step=1.0) * 1e3
+# rabi_frequency = st.sidebar.number_input("rabi frequency (kHZ)", min_value=10.0, max_value=1000.0, value=100.0, step=1.0) * 1e3
+# k01 = st.sidebar.number_input(r'$k_{01}$ value', value = 40.0*1600, step=1.0, format="%0.2e")
+# P0x = st.sidebar.number_input(r'$P_x$ value', min_value=1e5, max_value=1e8, value=2.17e6, step=10000.0, format="%0.2e")
+# P0z = st.sidebar.number_input(r'$P_z$ value', min_value=1e3, max_value=1e6, value=2.17e4, step=1000.0, format="%0.2e") 
+# Q0x = st.sidebar.number_input(r'$Q_x$ value', min_value=1e2, max_value=1e6, value=1.05e4, step=100.0, format="%0.2e")
+# k10_t = st.sidebar.number_input(r'${k_{10}}^t$ value', min_value=1e7, max_value=1e9, value=1.06e8, step=1000000.0, format="%0.2e")
+# k10_s = st.sidebar.number_input(r'${k_{10}}^s$ value', min_value=1e6, max_value=1e8, value=5.88e6, step=100000.0, format="%0.2e")
+# w = st.sidebar.number_input(r"$w$ value", min_value=1e3, max_value=1e6, value=4.17e4, step=100.0, format="%0.2e")
 
-P0x = st.sidebar.number_input("P0x value", min_value=1e5, max_value=1e8, value=2.17e6, step=10000.0, format="%0.2e")
-
-P0z = st.sidebar.number_input("P0z value", min_value=1e3, max_value=1e6, value=2.17e4, step=1000.0, format="%0.2e") 
-
-Q0x = st.sidebar.number_input("Q0x value", min_value=1e2, max_value=1e6, value=1.05e4, step=100.0, format="%0.2e")
-
-k10_t = st.sidebar.number_input("k10_t value", min_value=1e7, max_value=1e9, value=1.06e8, step=1000000.0, format="%0.2e")
-
-k10_s = st.sidebar.number_input("k10_s value", min_value=1e4, max_value=1e9, value=5.88e6, step=100000.0, format="%0.2e")
-
-w = st.sidebar.number_input("w value", min_value=1e3, max_value=1e6, value=4.17e4, step=100.0, format="%0.2e")
+rabi_frequency = get_float_input("rabi frequency (kHZ)", 3000.0, 10.0, 10000.0) * 1e3
+k01 = get_float_input(r"$k_{01}$ value", params['k01'], 1e1, 1e6)
+P0x = get_float_input(r"$P_x$ value", params['P0x'], 1e3, 1e9)
+P0z = get_float_input(r"$P_z$ value", params['P0z'], 1e3, 1e8)
+Q0x = get_float_input(r"$Q_x$ value", params['Q0x'], 1e1, 1e6)
+k10_t = get_float_input(r"${k_{10}}^t$ value", params['k10_t'], 1e6, 1e9)
+k10_s = get_float_input(r"${k_{10}}^s$ value", params['k10_s'], 1e4, 1e8)
+w = get_float_input(r"$w$ value", params['w0xy'], 1e1, 1e6)
 
 
 
@@ -289,9 +317,9 @@ params.update({'P0x' : P0x,
           'Q0x' : Q0x, 
           'Q0y' : Q0x, 
           'Q0z' : Q0x,
-          'R0x' : Q0x, 
-          'R0y' : Q0x, 
-          'R0z' : Q0x,  
+          'R0x' : R0x, 
+          'R0y' : R0x, 
+          'R0z' : R0x,  
           'k01' : k01,
           'k10_t' : k10_t,
           'k10_s' : k10_s,
