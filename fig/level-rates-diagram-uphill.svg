@@ -43,12 +43,12 @@
      showgrid="true"
      inkscape:lockguides="false"
      inkscape:zoom="1.0544998"
-     inkscape:cx="414.0329"
-     inkscape:cy="507.16724"
+     inkscape:cx="484.68251"
+     inkscape:cy="449.79407"
      inkscape:window-width="1920"
-     inkscape:window-height="974"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="619"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -58,6 +58,150 @@
   </sodipodi:namedview>
   <defs
      id="defs2">
+    <marker
+       preserveAspectRatio="none"
+       inkscape:isstock="true"
+       viewBox="0 0 5.3244081 6.1553851"
+       markerHeight="2.7"
+       markerWidth="2.3"
+       inkscape:stockid="TriangleStart"
+       orient="auto-start-reverse"
+       refY="-1.233912e-09"
+       refX="-0.75374877"
+       id="marker5470"
+       style="overflow:visible">
+      <path
+         id="path5468"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#3871ff;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.5)" />
+    </marker>
+    <marker
+       preserveAspectRatio="none"
+       inkscape:isstock="true"
+       viewBox="0 0 5.3244081 6.1553851"
+       markerHeight="2.7"
+       markerWidth="2.3"
+       inkscape:stockid="TriangleStart"
+       orient="auto-start-reverse"
+       refY="-1.233912e-09"
+       refX="-0.75374877"
+       id="marker5388"
+       style="overflow:visible">
+      <path
+         id="path5386"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#3871ff;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.5)" />
+    </marker>
+    <marker
+       preserveAspectRatio="none"
+       inkscape:isstock="true"
+       viewBox="0 0 5.3244081 6.1553851"
+       markerHeight="2.7"
+       markerWidth="2.3"
+       inkscape:stockid="TriangleStart"
+       orient="auto-start-reverse"
+       refY="-1.233912e-09"
+       refX="-0.75374877"
+       id="marker5000"
+       style="overflow:visible">
+      <path
+         id="path4998"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#399500;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.5)" />
+    </marker>
+    <marker
+       preserveAspectRatio="none"
+       inkscape:isstock="true"
+       viewBox="0 0 5.3244081 6.1553851"
+       markerHeight="2.7"
+       markerWidth="2.3"
+       inkscape:stockid="TriangleStart"
+       orient="auto-start-reverse"
+       refY="-1.233912e-09"
+       refX="-0.75374877"
+       id="marker4924"
+       style="overflow:visible">
+      <path
+         id="path4922"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#399500;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.5)" />
+    </marker>
+    <marker
+       preserveAspectRatio="none"
+       inkscape:isstock="true"
+       viewBox="0 0 5.3244081 6.1553851"
+       markerHeight="2.7"
+       markerWidth="2.3"
+       inkscape:stockid="TriangleStart"
+       orient="auto-start-reverse"
+       refY="-1.233912e-09"
+       refX="-0.75374877"
+       id="marker4854"
+       style="overflow:visible">
+      <path
+         id="path4852"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#399500;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.5)" />
+    </marker>
+    <marker
+       preserveAspectRatio="none"
+       inkscape:isstock="true"
+       viewBox="0 0 5.3244081 6.1553851"
+       markerHeight="2.7"
+       markerWidth="2.3"
+       inkscape:stockid="TriangleStart"
+       orient="auto-start-reverse"
+       refY="-1.233912e-09"
+       refX="-0.75374877"
+       id="marker4790"
+       style="overflow:visible">
+      <path
+         id="path4788"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#399500;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.5)" />
+    </marker>
+    <marker
+       preserveAspectRatio="none"
+       inkscape:isstock="true"
+       viewBox="0 0 5.3244081 6.1553851"
+       markerHeight="2.7"
+       markerWidth="2.3"
+       inkscape:stockid="TriangleStart"
+       orient="auto-start-reverse"
+       refY="-1.233912e-09"
+       refX="-0.75374877"
+       id="marker4702"
+       style="overflow:visible">
+      <path
+         id="path4700"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#399500;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.5)" />
+    </marker>
+    <marker
+       preserveAspectRatio="none"
+       inkscape:isstock="true"
+       viewBox="0 0 5.3244081 6.1553851"
+       markerHeight="2.7"
+       markerWidth="2.3"
+       inkscape:stockid="TriangleStart"
+       orient="auto-start-reverse"
+       refY="-1.233912e-09"
+       refX="-0.75374877"
+       id="marker4656"
+       style="overflow:visible">
+      <path
+         id="path4654"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#399500;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.5)" />
+    </marker>
     <rect
        x="721.19502"
        y="268.84785"
@@ -121,8 +265,8 @@
        markerHeight="2.7"
        viewBox="0 0 5.3244081 6.1553851"
        inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="none">
+       preserveAspectRatio="none"
+       inkscape:collect="always">
       <path
          transform="scale(0.5)"
          style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
@@ -140,11 +284,11 @@
        markerHeight="2.7"
        viewBox="0 0 5.3244081 6.1553851"
        inkscape:isstock="true"
-       inkscape:collect="always"
-       preserveAspectRatio="none">
+       preserveAspectRatio="none"
+       inkscape:collect="always">
       <path
          transform="scale(0.5)"
-         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:#3871ff;stroke-width:1pt;stroke-opacity:1"
          d="M 5.77,0 -2.88,5 V -5 Z"
          id="path135-6" />
     </marker>
@@ -156,7 +300,7 @@
     <g
        id="g19777"
        transform="matrix(0.84802711,0,0,0.84802711,91.75571,37.742781)"
-       inkscape:export-filename="level-rates-diagram-uphill-04.png"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
        inkscape:export-xdpi="88.628403"
        inkscape:export-ydpi="88.628403">
       <path
@@ -176,168 +320,252 @@
        style="fill:#000000;stroke:#000000;stroke-width:0.74027127;stroke-opacity:1"
        d="m 108.93386,145.40833 h 40.64049"
        id="path2796"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.74027127;stroke-opacity:1"
        d="m 108.93386,151.36612 h 40.64049"
        id="path2798"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.74027127;stroke-opacity:1"
        d="m 108.93386,172.00553 h 40.64049"
        id="path2800"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.74027127;stroke-opacity:1"
        d="m 162.5538,132.42891 h 40.64049"
        id="path2802"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.74027127;stroke-opacity:1"
        d="m 162.5538,72.85107 h 40.64049"
        id="path2804"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.74027127;stroke-opacity:1"
        d="m 108.93386,45.189993 h 40.64049"
        id="path2806"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.74027127;stroke-opacity:1"
        d="m 108.93386,51.147764 h 40.64049"
        id="path2808"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.74027127;stroke-opacity:1"
        d="m 108.93386,71.787184 h 40.64049"
        id="path2810"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <circle
-       style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.99552262;stroke-opacity:1"
+       style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.68310195;stroke-opacity:1"
        id="circle2812"
-       cx="191.40155"
-       cy="134.26614"
-       r="6.396131" />
+       cx="190.98177"
+       cy="132.78804"
+       r="4.3888602"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <circle
        style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.66780853;stroke-opacity:1"
        id="circle2814"
        cx="114.84084"
        cy="171.79073"
-       r="4.2906036" />
+       r="4.2906036"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <circle
        style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.50468487;stroke-opacity:1"
        id="circle2816"
        cx="126.20755"
        cy="150.44128"
-       r="3.2425375" />
+       r="3.2425375"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <circle
        style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.42586634;stroke-opacity:1"
        id="circle2818"
        cx="136.58806"
        cy="144.99554"
-       r="2.7361357" />
+       r="2.7361357"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <circle
-       style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.9512288;stroke-opacity:1"
+       style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.75596577;stroke-opacity:1"
        id="circle2820"
-       cx="191.40155"
-       cy="70.680504"
-       r="6.1115441" />
+       cx="191.20532"
+       cy="72.071793"
+       r="4.8569999"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <circle
        style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.58410281;stroke-opacity:1"
        id="circle2822"
        cx="114.84084"
        cy="71.609528"
-       r="3.7528033" />
+       r="3.7528033"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <circle
        style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.44584891;stroke-opacity:1"
        id="circle2824"
        cx="126.20755"
        cy="50.71228"
-       r="2.864517" />
+       r="2.864517"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <circle
        style="fill:#7d0b7b;fill-opacity:0.759146;stroke:none;stroke-width:0.39094725;stroke-opacity:1"
        id="circle2826"
        cx="136.58806"
        cy="44.99395"
-       r="2.5118017" />
+       r="2.5118017"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:none;fill-opacity:1;stroke:#3f91f1;stroke-width:1.09744704;stroke-dasharray:none;stroke-opacity:0.6951218;marker-end:url(#TriangleStart)"
        d="M 105.83333,172.70977 V 11.078639"
        id="path2828"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:none;fill-opacity:1;stroke:#3f91f1;stroke-width:1.24683464;stroke-dasharray:none;stroke-opacity:0.6951218;marker-end:url(#TriangleStart)"
        d="M 204.46445,132.22062 V 11.242432"
        id="path2830"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:none;fill-opacity:1;stroke:#ff6d11;stroke-width:1.15435004;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
        d="M 136.58814,47.377502 V 139.8174"
        id="path2832"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:none;fill-opacity:1;stroke:#ff000e;stroke-width:3.68162489;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
        d="M 191.40167,76.610472 V 121.88752"
        id="path2834"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:3.41523647;stroke-dasharray:13.66086081, 3.41523655;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:3.41523637;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker4656);stroke-miterlimit:4;opacity:0.6"
        d="m 150.02626,53.252445 9.1549,13.238264"
        id="path2836"
        inkscape:transform-center-x="1.0152852"
        inkscape:transform-center-y="0.3148801"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:1.02457094;stroke-dasharray:4.09830093, 1.02457097;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:1.02457093;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker4924);stroke-miterlimit:4;opacity:0.6"
        d="m 163.26661,136.24208 -11.27007,13.07934"
        id="path2838"
        inkscape:transform-center-x="1.7179323"
        inkscape:transform-center-y="-2.985633"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:1.02457094;stroke-dasharray:4.09830093, 1.02457097;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:1.02457093;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker4854);stroke-miterlimit:4;opacity:0.6"
        d="m 160.51599,134.53805 -8.81084,9.57994"
        id="path2840"
        inkscape:transform-center-x="3.984882"
        inkscape:transform-center-y="-2.8225681"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:0.8234989;stroke-dasharray:3.29401273, 0.82349892;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:0.8234989;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker4790);stroke-miterlimit:4;opacity:0.6"
        d="m 150.43443,71.491932 10.44051,1.322004"
        id="path2842"
        inkscape:transform-center-x="1.7179383"
        inkscape:transform-center-y="-2.985638"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:1.02457094;stroke-dasharray:4.09830093, 1.02457097;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:1.02457093;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5000);stroke-miterlimit:4;opacity:0.6"
        d="m 165.66639,136.05288 -13.65827,32.60523"
        id="path2844"
        inkscape:transform-center-x="3.9848792"
        inkscape:transform-center-y="-2.8225642"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:none;fill-opacity:1;stroke:#ff6d11;stroke-width:1.35584891;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
        d="m 114.84086,75.303572 v 41.529188 48.28166"
        id="path2846"
        sodipodi:nodetypes="ccc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
        style="fill:none;fill-opacity:1;stroke:#ff6d11;stroke-width:1.15435004;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart)"
        d="M 126.20754,53.464629 V 145.18071"
        id="path2848"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
        x="207.35464"
        y="39.87635"
-       id="text2912"><tspan
+       id="text2912"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
          x="207.35464"
@@ -353,13 +581,16 @@
          y="50.418526"
          id="tspan2910" /></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:3.41523647;stroke-dasharray:13.66086081, 3.41523655;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart)"
+       style="fill:none;fill-opacity:1;stroke:#399500;stroke-width:3.415;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker4702);stroke-miterlimit:4;opacity:0.6"
        d="m 153.0559,44.769438 14.91123,21.115343"
        id="path2914"
        inkscape:transform-center-x="1.0152845"
        inkscape:transform-center-y="0.3148809"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <text
        xml:space="preserve"
        id="text3698"
@@ -371,7 +602,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
        x="94.027893"
        y="24.666134"
-       id="text3728"><tspan
+       id="text3728"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
          x="94.027893"
@@ -391,7 +625,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
        x="194.44603"
        y="99.003311"
-       id="text3736"><tspan
+       id="text3736"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
          x="194.44603"
@@ -413,7 +650,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
        x="136.65935"
        y="103.71632"
-       id="text3766"><tspan
+       id="text3766"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
          x="136.65935"
@@ -435,7 +675,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
        x="160.43871"
        y="50.587772"
-       id="text3776"><tspan
+       id="text3776"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
          x="160.43871"
@@ -455,7 +698,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
        x="146.08542"
        y="64.726837"
-       id="text3786"><tspan
+       id="text3786"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
          x="146.08542"
@@ -475,7 +721,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
        x="151.01265"
        y="79.508591"
-       id="text3796"><tspan
+       id="text3796"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
          x="151.01265"
@@ -493,69 +742,35 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
-       x="147.37079"
-       y="135.85039"
-       id="text3806"><tspan
+       x="150.13078"
+       y="137.60675"
+       id="text3806"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
-         x="147.37079"
-         y="135.85039"
+         x="150.13078"
+         y="137.60675"
          id="tspan3802"><tspan
            style="font-style:italic;stroke-width:0.64604658"
            id="tspan3798">Q</tspan><tspan
            style="font-size:5.48192978px;baseline-shift:sub;stroke-width:0.64604658"
-           id="tspan3800">x</tspan></tspan><tspan
+           id="tspan3800" /></tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
-         x="147.37079"
-         y="146.39256"
+         x="150.13078"
+         y="148.14893"
          id="tspan3804" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
-       x="144.58583"
-       y="157.91576"
-       id="text3816"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
-         x="144.58583"
-         y="157.91576"
-         id="tspan3812"><tspan
-           style="font-style:italic;stroke-width:0.64604658"
-           id="tspan3808">Q</tspan><tspan
-           style="font-size:5.48192978px;baseline-shift:sub;stroke-width:0.64604658"
-           id="tspan3810">y</tspan></tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
-         x="144.58583"
-         y="168.45793"
-         id="tspan3814" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
-       x="160.22449"
-       y="155.34503"
-       id="text3826"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
-         x="160.22449"
-         y="155.34503"
-         id="tspan3822"><tspan
-           style="font-style:italic;stroke-width:0.64604658"
-           id="tspan3818">Q</tspan><tspan
-           style="font-size:5.48192978px;baseline-shift:sub;stroke-width:0.64604658"
-           id="tspan3820">z</tspan></tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
-         x="160.22449"
-         y="165.88721"
-         id="tspan3824" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
        x="121.44915"
        y="164.12836"
-       id="text3836"><tspan
+       id="text3836"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
          x="121.44915"
@@ -568,7 +783,10 @@
          id="tspan3834" /></text>
     <g
        id="g518"
-       transform="matrix(0.84802711,0,0,0.98488059,91.327259,-83.167641)">
+       transform="matrix(0.84802711,0,0,0.98488059,91.327259,-83.167641)"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403">
       <path
          style="fill:none;fill-opacity:1;stroke:#3d1800;stroke-width:1.38692999;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow);marker-end:url(#marker19865)"
          d="m 33.552517,139.12984 v 15.71924"
@@ -580,7 +798,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
        x="121.02071"
        y="63.441448"
-       id="text524"><tspan
+       id="text524"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
          x="121.02071"
@@ -593,7 +814,10 @@
          id="tspan522" /></text>
     <g
        id="g642"
-       transform="matrix(0.84802711,0,0,0.84802711,81.696974,38.197229)">
+       transform="matrix(0.84802711,0,0,0.84802711,81.696974,38.197229)"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403">
       <path
          style="fill:none;fill-opacity:1;stroke:#3d1800;stroke-width:1.38692999;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#RoundedArrow);marker-end:url(#marker19865)"
          d="m 33.552517,129.12661 v 25.72247"
@@ -610,7 +834,7 @@
     <g
        id="g746"
        transform="matrix(0.84802711,0,0,0.84802711,81.621243,-62.008288)"
-       inkscape:export-filename="level-rates-diagram-03.png"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
        inkscape:export-xdpi="88.628403"
        inkscape:export-ydpi="88.628403">
       <path
@@ -629,49 +853,64 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64604658;stroke-opacity:1"
-       x="178.45219"
-       y="153.09949"
-       id="text1406"><tspan
+       x="176.94675"
+       y="160.62675"
+       id="text1406"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
-         x="178.45219"
-         y="153.09949"
+         x="176.94675"
+         y="160.62675"
          id="tspan1402">R</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.43373871px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64604658"
-         x="178.45219"
-         y="163.64166"
+         x="176.94675"
+         y="171.16893"
          id="tspan1404" /></text>
     <path
-       style="fill:none;fill-opacity:1;stroke:#3871ff;stroke-width:0.85380912;stroke-dasharray:3.41525362, 0.85380913;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart-9)"
+       style="fill:none;fill-opacity:1;stroke:#3871ff;stroke-width:0.85380909;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5470);opacity:0.6;stroke-miterlimit:4"
        d="m 167.89534,171.50192 15.62752,-37.30118"
        id="path1504"
        inkscape:transform-center-x="-3.9848785"
        inkscape:transform-center-y="2.8225596"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#3871ff;stroke-width:0.85380912;stroke-dasharray:3.41525362, 0.85380913;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart-9)"
+       style="fill:none;fill-opacity:1;stroke:#3871ff;stroke-width:0.85380909;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart-9);opacity:0.6;stroke-miterlimit:4"
        d="m 170.62201,151.65774 10.47713,-17.30551"
        id="path2078"
        inkscape:transform-center-x="-3.9848793"
        inkscape:transform-center-y="2.8225635"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#3871ff;stroke-width:0.85380912;stroke-dasharray:3.41525362, 0.85380913;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#TriangleStart-9)"
+       style="fill:none;fill-opacity:1;stroke:#3871ff;stroke-width:0.85380909;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5388);opacity:0.6;stroke-miterlimit:4"
        d="m 170.62201,145.29548 8.20489,-10.94325"
        id="path2080"
        inkscape:transform-center-x="-3.9848803"
        inkscape:transform-center-y="2.8225642"
        sodipodi:nodetypes="cc"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5080443;stroke-opacity:1"
        x="84.937569"
        y="155.33723"
-       id="text2856"><tspan
+       id="text2856"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.5080443"
          x="84.937569"
@@ -686,7 +925,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5080443;stroke-opacity:1"
        x="84.716347"
        y="172.87213"
-       id="text2864"><tspan
+       id="text2864"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.5080443"
          x="84.716347"
@@ -701,7 +943,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5080443;stroke-opacity:1"
        x="85.058548"
        y="147.17514"
-       id="text2872"><tspan
+       id="text2872"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.5080443"
          x="85.058548"
@@ -716,7 +961,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5080443;stroke-opacity:1"
        x="89.445633"
        y="56.601627"
-       id="text2880"><tspan
+       id="text2880"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.5080443"
          x="89.445633"
@@ -731,7 +979,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5080443;stroke-opacity:1"
        x="88.285942"
        y="76.216599"
-       id="text2888"><tspan
+       id="text2888"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.5080443"
          x="88.285942"
@@ -746,7 +997,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5080443;stroke-opacity:1"
        x="89.401604"
        y="46.138393"
-       id="text2896"><tspan
+       id="text2896"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.1303587px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.5080443"
          x="89.401604"
@@ -761,7 +1015,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.3791151px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64021313;stroke-opacity:1"
        x="211.06215"
        y="133.50127"
-       id="text2904-4"><tspan
+       id="text2904-4"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.3791151px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64021313"
          x="211.06215"
@@ -779,7 +1036,10 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.3791151px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.64186221;stroke-opacity:1"
        x="210.21019"
        y="75.618538"
-       id="text2912-9"><tspan
+       id="text2912-9"
+       inkscape:export-filename="C:\Users\ai78t\OneDrive - University of Glasgow\Documents - qos-group\qos_group\papers\2025_Diradical_ODMR\figures\SI-figures\level-rates-diagram-04.png"
+       inkscape:export-xdpi="88.628403"
+       inkscape:export-ydpi="88.628403"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.3791151px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;fill:#000000;fill-opacity:1;stroke-width:0.64186221"
          x="210.21019"
